@@ -6,6 +6,7 @@
 
 body {
   background: #eee;
+  
 }
 
 header {
@@ -52,4 +53,27 @@ section span:nth-of-type(3) {
   height: 100px;
   width: 100px;
   border: 1px solid #000;
+}
+
+input {
+  justify-self: center;
+}
+
+button {
+  transition-duration: 0.4s;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  padding: 7px;
+}
+
+button:hover {
+  background-color: #f800e3; /* Green */
+  color: white;
+  
 }
